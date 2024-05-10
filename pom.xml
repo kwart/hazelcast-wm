@@ -31,7 +31,7 @@
         <maven.build.timestamp.format>yyyyMMdd</maven.build.timestamp.format>
         <timestamp>${maven.build.timestamp}</timestamp>
 
-        <hazelcast.version>4.1</hazelcast.version>
+        <hazelcast.version>5.3.7</hazelcast.version>
 
         <log4j.version>1.2.12</log4j.version>
         <junit.version>4.13.1</junit.version>
@@ -76,14 +76,11 @@
     </scm>
     <developers>
         <developer>
-            <id>oztalip</id>
-            <name>talip ozturk</name>
-            <email>talip@hazelcast.com</email>
-        </developer>
-        <developer>
-            <id>fuad</id>
-            <name>fuad malikov</name>
-            <email>fuad@hazelcast.com</email>
+            <id>hazelcast-team</id>
+            <name>Hazelcast team</name>
+            <email>info@hazelcast.com</email>
+            <organization>Hazelcast, Inc.</organization>
+            <organizationUrl>https://hazelcast.com</organizationUrl>
         </developer>
     </developers>
 
